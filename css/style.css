@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*font-family: 'Montserrat', sans-serif;*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #204f87;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bannar{
+    background-image: url(../images/bannar.png);
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.bannar h1{
+    
+font-size: 70px;
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+font-family: 'Montserrat', sans-serif;
+}
+
+.icon{
+    
+position: absolute;
+    
+font-size: 40px;
+    
+left: 50%;
+    
+top: 70%;
+
+color: #fff;
+    
+transform: translate(-50%, 0px);
+
+animation: updown 1.5s infinite;
+}
+@keyframes updown{
+    0%{
+        top: 70%;
+
+    }
+    100%{
+        top: 80%;
+    }
+
+}
+.bar{
+    margin: auto;
+    position: relative;
+    margin-top: 62px;
+}
+.bar::before{
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 7px;
+    background: #f2622b;
+}
+.who-we-are h1{
+    margin: auto;
+    height: 73px;
+    margin-top: 25px;
+    color: #1f4f87;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.who-we-are p{
+    color: #b0b0b1;
+    font-size: 18px;
+    text-align: justify;
+}
+.who-we-are{
+    
+padding-bottom: 100px;
+}
+.col-md-6 img{
+    width: 77%;
+    margin-left: 25%;
+}
+.navbar-brand{
+    
+padding-bottom: 20px;
+}
+
+
+
